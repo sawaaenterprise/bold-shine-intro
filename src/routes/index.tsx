@@ -65,6 +65,10 @@ function Portfolio() {
         <div className="hero-smoke" aria-hidden="true" />
         <div className="hero-texture" aria-hidden="true" />
         <div className="dark-particles" aria-hidden="true">{Array.from({ length: 28 }, (_, index) => <i key={index} />)}</div>
+        <div className="hero-bridge" aria-hidden="true">
+          <span className="bridge-glow" />
+          <span className="bridge-track"><span>{"Python Developer ✦ ".repeat(2)}</span><span>{"Python Developer ✦ ".repeat(2)}</span></span>
+        </div>
         <img className="hero-image" src={portrait} alt="Syed Abdul Wahab in a sharply lit editorial portrait" width={1145} height={768} fetchPriority="high" />
         <Header />
         <div className="hero-copy">

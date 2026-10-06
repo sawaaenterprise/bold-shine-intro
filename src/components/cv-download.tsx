@@ -1,5 +1,5 @@
 import { useState, type MouseEvent } from "react";
-import { Download, ExternalLink, LoaderCircle } from "lucide-react";
+import { Download, LoaderCircle } from "lucide-react";
 import { Button, type ButtonProps } from "@/components/ui/button";
 
 const pdfUrl = "/syed-abdul-wahab-cv.pdf";
@@ -57,8 +57,7 @@ export function CvDownload({ children = "Download PDF", variant = "portfolio", c
           {busy ? "Preparing PDF…" : children}
         </a>
       </Button>
-      <a className="cv-open-pdf" href={pdfUrl} target="_blank" rel="noopener noreferrer">Open PDF <ExternalLink /></a>
-      {error && <p className="cv-download-error" role="alert">Download unavailable. Open the PDF to save it.</p>}
+      {error && <p className="cv-download-error" role="alert">Download unavailable right now — please try again.</p>}
     </div>
   );
 }

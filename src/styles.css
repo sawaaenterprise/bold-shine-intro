@@ -35,7 +35,7 @@ a { color: inherit; text-decoration: none; }
 .portfolio-shell { min-width: 320px; }
 
 .hero { display: grid; grid-template-rows: auto 1fr auto; position: relative; min-height: 740px; height: min(920px, 94svh); overflow: hidden; isolation: isolate; background: var(--ink); }
-.hero::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, oklch(0.01 0 0 / 88%) 0%, oklch(0.01 0 0 / 36%) 48%, oklch(0.01 0 0 / 4%) 72%), linear-gradient(0deg, oklch(0.01 0 0 / 70%) 0%, transparent 28%); }
+.hero::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, oklch(0.01 0 0 / 94%) 0%, oklch(0.01 0 0 / 78%) 42%, oklch(0.01 0 0 / 10%) 68%), linear-gradient(0deg, oklch(0.01 0 0 / 76%) 0%, transparent 30%); }
 /* Small dark ember accents layered over the existing background — nothing underneath changes. */
 .hero::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
   background: linear-gradient(120deg, transparent 40%, var(--hero-ember-deep) 75%, transparent);
@@ -250,8 +250,6 @@ a:focus-visible { outline: 2px solid var(--volt); outline-offset: 6px; }
 .resume-actions > a { align-self: start; }
 .cv-download-control { display: grid; justify-items: stretch; gap: .5rem; min-width: 0; }
 .cv-nav > .cv-download-control { justify-self: end; }
-.cv-open-pdf { display: inline-flex; align-items: center; justify-content: center; gap: .4rem; min-height: 24px; font-size: .68rem; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
-.cv-open-pdf svg { width: 12px; height: 12px; flex-shrink: 0; }
 .cv-download-error { max-width: 30ch; margin: 0; font-size: .75rem; line-height: 1.4; }
 .cv-download-control [aria-disabled="true"] { opacity: .65; cursor: wait; }
 .cv-download-control .portfolio-action { white-space: normal; text-align: center; }

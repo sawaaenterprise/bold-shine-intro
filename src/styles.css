@@ -217,7 +217,7 @@ footer a { color: var(--paper); }
 @media (max-width: 700px) {
   .hero { height: 820px; min-height: 720px; }
   .hero::after { background: linear-gradient(0deg, var(--ink) 0%, oklch(0.01 0 0 / 90%) 43%, transparent 60%), linear-gradient(90deg, oklch(0.01 0 0 / 14%), transparent 70%); }
-  .hero-image { top: 3rem; height: auto; aspect-ratio: 1145 / 768; object-fit: contain; object-position: center top; }
+  .hero-image { top: 2.5rem; height: auto; aspect-ratio: 1145 / 768; object-fit: contain; object-position: center top; }
   .topbar { grid-template-columns: 1fr auto; padding: 1rem; } .nav-links { display: none; } .header-note { font-size: .55rem; }
   .hero-copy { padding: 23rem 1rem 0; }
   .hero h1 { font-size: 5.8rem; }
@@ -278,7 +278,7 @@ a:focus-visible { outline: 2px solid var(--volt); outline-offset: 6px; }
 @media (max-width: 1100px) and (min-width: 701px) { .hero h1 { font-size: 8.2rem; } .hero-copy { padding-top: 2.5rem; } .resume-callout { gap: 2rem; } .resume-actions { max-width: 250px; } .cv-masthead h1 { font-size: 7rem; } .cv-intro { grid-template-columns: 1fr 2fr; } .cv-contact-links { grid-column: 2; } }
 @media (max-width: 700px) {
   .hero-smoke { opacity: .25; }
-  .hero { height: 800px; min-height: 0; } .hero-copy { align-self: end; padding-top: 21rem; padding-bottom: 2rem; }
+  .hero { height: 800px; min-height: 0; } .hero-copy { align-self: end; padding-top: 22.5rem; padding-bottom: 2rem; }
   .hero h1 { font-size: 5.4rem; } .hero-kicker { margin-bottom: 1.25rem; }
   .hero-intro { margin-top: .75rem; }
  .resume-section { padding: 0 1rem 4rem; } .resume-callout { margin-top: 0; } .resume-actions { display: grid; } .resume-actions a { width: 100%; }

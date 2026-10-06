@@ -63,6 +63,7 @@ function Portfolio() {
     <main className="portfolio-shell" id="top">
       <section className="hero" aria-label="Syed Abdul Wahab introduction">
         <div className="hero-smoke" aria-hidden="true" />
+        <div className="hero-texture" aria-hidden="true" />
         <div className="dark-particles" aria-hidden="true">{Array.from({ length: 28 }, (_, index) => <i key={index} />)}</div>
         <img className="hero-image" src={portrait} alt="Syed Abdul Wahab in a sharply lit editorial portrait" width={1145} height={768} fetchPriority="high" />
         <Header />
